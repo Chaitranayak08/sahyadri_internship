@@ -1,98 +1,6 @@
 *{
     margin:0;
-<<<<<<< HEAD
    /* /font-family: 'Cinzel Decorative'; */
-=======
-<<<<<<< HEAD
-    font-family: Roboto;
-}
-.container{
-    background-color: rgba(64, 33, 34, 1);
-    padding: 100px 0;
-}
-.address{
-    float: left;
-    width: 25%;
-    line-height: 25px;
-    padding-left:5%;
-}
-.address h4{
-    color: rgba(206, 175, 54,1) ;
-    font-size: 16px;
-}
-.address ul{
-    margin: 0;
-    padding: 0;
-    list-style: none;
-}
-.address ul li a{
-    font-size: 14px;
-    line-height: 35px;
-    color: white;
-}
-.address ul li a:hover{
-    color: rgba(206, 175, 54,1);
-}
-.address ul li{
-    color: white;
-}
-.services{
-    float: left;
-    width: 25%;
-    padding-left: 5%;
-}
-.services h4{
-    color: rgba(206, 175, 54,1) ;
-    font-size: 16px;
-}
-.services ul{
-    margin: 0;
-    padding: 0;
-    list-style: none;
-}
-.services ul li a{
-    font-size: 14px;
-    line-height: 35px;
-    color: white;
-}
-.services ul li a:hover{
-    color: rgba(206, 175, 54,1);
-
-}
-.company{
-    float: left;
-    width: 25%;
-}
-.company h4{
-    color: rgba(206, 175, 54,1) ;
-    font-size: 16px;
-}
-.company ul{
-    margin: 0;
-    padding: 0;
-    list-style: none;
-}
-.company ul li a{
-    font-size: 14px;
-    line-height: 35px;
-    color: white;
-}
-.company ul li a:hover{
-    color: rgba(206, 175, 54,1);
-
-}
-.news p{
-    color: white;
-}
-.news h4{
-    color:  rgba(206, 175, 54,1);
-}
-.news input button{
-    color:  rgba(206, 175, 54,1);
-    background-color:  rgba(206, 175, 54,1);;
-=======
-    font-family: 'Cinzel Decorative';
->>>>>>> 521cdc090e5730035c41626219580a6c2f0a5469
     border: border-box;
 
 }
@@ -100,7 +8,6 @@
     height: 185px;
     background-color:white;
     color:white;
-<<<<<<< HEAD
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -189,8 +96,3 @@ background-color: rgb(223,153,48);
 
     
  }
-=======
-    border: 10px solid blue;
->>>>>>> ead5bd3662291d28f4957f2e6f2ef253636b06e9
-}
->>>>>>> 521cdc090e5730035c41626219580a6c2f0a5469
