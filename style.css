@@ -1,6 +1,93 @@
 *{
     margin:0;
    /* /font-family: 'Cinzel Decorative'; */
+    font-family: Roboto;
+}
+.container{
+    background-color: rgba(64, 33, 34, 1);
+    padding: 100px 0;
+}
+.address{
+    float: left;
+    width: 25%;
+    line-height: 25px;
+    padding-left:5%;
+}
+.address h4{
+    color: rgba(206, 175, 54,1) ;
+    font-size: 16px;
+}
+.address ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.address ul li a{
+    font-size: 14px;
+    line-height: 35px;
+    color: white;
+}
+.address ul li a:hover{
+    color: rgba(206, 175, 54,1);
+}
+.address ul li{
+    color: white;
+}
+.services{
+    float: left;
+    width: 25%;
+    padding-left: 5%;
+}
+.services h4{
+    color: rgba(206, 175, 54,1) ;
+    font-size: 16px;
+}
+.services ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.services ul li a{
+    font-size: 14px;
+    line-height: 35px;
+    color: white;
+}
+.services ul li a:hover{
+    color: rgba(206, 175, 54,1);
+
+}
+.company{
+    float: left;
+    width: 25%;
+}
+.company h4{
+    color: rgba(206, 175, 54,1) ;
+    font-size: 16px;
+}
+.company ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.company ul li a{
+    font-size: 14px;
+    line-height: 35px;
+    color: white;
+}
+.company ul li a:hover{
+    color: rgba(206, 175, 54,1);
+
+}
+.news p{
+    color: white;
+}
+.news h4{
+    color:  rgba(206, 175, 54,1);
+}
+.news input button{
+    color:  rgba(206, 175, 54,1);
+    background-color:  rgba(206, 175, 54,1);
+    font-family: 'Cinzel Decorative';
     border: border-box;
 
 }
@@ -76,7 +163,8 @@ border: 2px solid transparent;
     border-bottom-left-radius:4px ;
  }
 
- .nav-consultation{
+ .nav-consultation
+ {
     padding-left: 25px;
     padding-top: 15px;
 text-align: center;
@@ -86,6 +174,7 @@ height: 55px;
 color: white;
 background-color: rgb(223,153,48);
  }
+
  .call{
     background-color:rgb( 219,92,37);
     height: 55px;
@@ -96,3 +185,106 @@ background-color: rgb(223,153,48);
 
     
  }
+.container{
+    background-color: rgba(64, 33, 34, 1);
+    padding: 100px 0;
+}
+.address{
+    float: left;
+    width: 25%;
+    line-height: 25px;
+    padding-left:5%;
+}
+.address h4{
+    color: rgba(206, 175, 54,1) ;
+    font-size: 16px;
+}
+.address ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.address ul li a{
+    font-size: 14px;
+    line-height: 35px;
+    color: white;
+}
+.address ul li a:hover{
+    color: rgba(206, 175, 54,1);
+}
+.address ul li{
+    color: white;
+}
+.services{
+    float: left;
+    width: 25%;
+    padding-left: 5%;
+}
+.services h4{
+    color: rgba(206, 175, 54,1);
+    font-size: 16px;
+}
+.services ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.services ul li a{
+    font-size: 14px;
+    line-height: 35px;
+    color: white;
+}
+.services ul li a:hover{
+    color: rgba(206, 175, 54,1);
+
+}
+.company{
+    float: left;
+    width: 25%;
+}
+.company h4{
+    color: rgba(206, 175, 54,1) ;
+    font-size: 16px;
+}
+.company ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.company ul li a{
+    font-size: 14px;
+    line-height: 35px;
+    color: white;
+}
+.company ul li a:hover{
+    color: rgba(206, 175, 54,1);
+
+}
+.news p{
+    color: white;
+}
+.news h4{
+    color:  rgba(206, 175, 54,1);
+}
+.news input button{
+    color:  rgba(206, 175, 54,1);
+    background-color:  rgba(206, 175, 54,1);
+
+}
+ 
+
+.logo ul li{
+    list-style: none;
+}
+.logo ul li a i{
+list-style: none;
+float:right;
+width: 20px;
+padding-right:25px;
+margin-right:35px;
+
+}
+.logo p{
+    color:rgba(206, 175, 54,1);
+    margin-right:25px;
+}
