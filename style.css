@@ -167,7 +167,8 @@ border: 2px solid transparent;
     border-bottom-left-radius:4px ;
  }
 
- .nav-consultation{
+ .nav-consultation
+ {
     padding-left: 25px;
     padding-top: 15px;
 text-align: center;
@@ -177,6 +178,7 @@ height: 55px;
 color: white;
 background-color: rgb(223,153,48);
  }
+
  .call{
     background-color:rgb( 219,92,37);
     height: 55px;
@@ -187,8 +189,8 @@ background-color: rgb(223,153,48);
 
     
  }
-
-.logo1 ul li{
+}
+.logo ul li{
     list-style: none;
 }
 .logo1 ul li a i{
