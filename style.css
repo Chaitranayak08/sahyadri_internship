@@ -1,8 +1,6 @@
 *{
     margin:0;
-<<<<<<< HEAD
    /* /font-family: 'Cinzel Decorative'; */
-=======
     font-family: Roboto;
 }
 .container{
@@ -90,7 +88,6 @@
     color:  rgba(206, 175, 54,1);
     background-color:  rgba(206, 175, 54,1);
     font-family: 'Cinzel Decorative';
->>>>>>> 521cdc090e5730035c41626219580a6c2f0a5469
     border: border-box;
 
 }
@@ -98,7 +95,6 @@
     height: 185px;
     background-color:white;
     color:white;
-<<<<<<< HEAD
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -187,8 +183,19 @@ background-color: rgb(223,153,48);
 
     
  }
-=======
-    border: 10px solid blue;
->>>>>>> ead5bd3662291d28f4957f2e6f2ef253636b06e9
 }
->>>>>>> 521cdc090e5730035c41626219580a6c2f0a5469
+.logo ul li{
+    list-style: none;
+}
+.logo ul li a i{
+list-style: none;
+float:right;
+width: 20px;
+padding-right:25px;
+margin-right:35px;
+
+}
+.logo p{
+    color:rgba(206, 175, 54,1);
+    margin-right:25px;
+}
