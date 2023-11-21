@@ -1,6 +1,5 @@
 *{
     margin:0;
-<<<<<<< HEAD
     font-family: Roboto;
 }
 .container{
@@ -86,8 +85,7 @@
 }
 .news input button{
     color:  rgba(206, 175, 54,1);
-    background-color:  rgba(206, 175, 54,1);;
-=======
+    background-color:  rgba(206, 175, 54,1);
     font-family: 'Cinzel Decorative';
     border: border-box;
 
@@ -98,5 +96,19 @@
     background-color: white;
     color:white;
     border: 10px solid blue;
->>>>>>> ead5bd3662291d28f4957f2e6f2ef253636b06e9
+}
+.logo ul li{
+    list-style: none;
+}
+.logo ul li a i{
+list-style: none;
+float:right;
+width: 20px;
+padding-right:25px;
+margin-right:35px;
+
+}
+.logo p{
+    color:rgba(206, 175, 54,1);
+    margin-right:25px;
 }
