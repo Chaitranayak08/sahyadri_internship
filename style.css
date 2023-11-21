@@ -3,9 +3,12 @@
    /* /font-family: 'Cinzel Decorative'; */
     font-family: Roboto;
 }
+/* Footer part */
 .container{
     background-color: rgba(64, 33, 34, 1);
-    padding: 100px 0;
+    padding: 52px;
+    
+    
 }
 .address{
     float: left;
@@ -100,6 +103,7 @@
     justify-content: space-evenly;
     
 }
+/* End of footer */
 
 /* LOGO */
 .nav-logo{
@@ -183,11 +187,11 @@ background-color: rgb(223,153,48);
 
     
  }
-}
-.logo ul li{
+
+.logo1 ul li{
     list-style: none;
 }
-.logo ul li a i{
+.logo1 ul li a i{
 list-style: none;
 float:right;
 width: 20px;
@@ -195,7 +199,7 @@ padding-right:25px;
 margin-right:35px;
 
 }
-.logo p{
+.logo1 p{
     color:rgba(206, 175, 54,1);
     margin-right:25px;
 }
