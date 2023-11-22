@@ -190,18 +190,18 @@ background-color: rgb(223,153,48);
     
  }
 
-.logo ul li{
+.logo1 ul li{
     list-style: none;
 }
 .logo1 ul li a i{
 list-style: none;
 float:right;
-width: 20px;
 padding-right:25px;
-margin-right:35px;
+margin-right: 35px;
 
 }
 .logo1 p{
     color:rgba(206, 175, 54,1);
     margin-right:25px;
 }
+
