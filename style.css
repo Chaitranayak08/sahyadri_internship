@@ -3,6 +3,100 @@
    /* /font-family: 'Cinzel Decorative'; */
     font-family: Roboto;
 }
+.navbar{
+    height: 185px;
+    background-color:white;
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+
+/* LOGO */
+.nav-logo{
+    height: 120px;
+    min-width:110px;
+    max-width: 130px;
+}
+.logo{
+    background-image: url("logo.jpeg");
+    background-size: cover;
+   height:100%;
+   width: 100%;
+}
+
+.border{
+border: 2px solid transparent;
+}
+.border:hover{
+    border: 1.5px solid black;
+}
+/* FOR TITLE HOMECRAFT HEAVEN */
+
+.nav-title{ 
+    color:rgb(59,22,22);
+    font-size: 35px;
+    font-family: 'Sedan SC';
+    font-weight:900px;
+    margin-top: 30px;
+    padding-left: 25px;
+    text-align: center;
+    height:fit-content;
+ } 
+
+ /* Search bar */
+ .nav-search{
+ 
+    display: flex;
+    width: 500px;
+    height: 45px;
+    border-radius: 4px;
+    justify-content: space-evenly;
+ }
+
+ .search-input{
+    
+    width:100%;
+    font-size: 1rem;
+    border:2px solid lightgrey;
+    color: rgb(119,119,119);
+
+
+ }
+ .search-icon{
+    width: 40px;
+    border:2px solid lightgrey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    border-top-left-radius:4px ;
+    border-bottom-left-radius:4px ;
+ }
+
+ .nav-consultation
+ {
+    padding-left: 25px;
+    padding-top: 15px;
+text-align: center;
+width:250px;
+align-items: center;
+height: 55px;
+color: white;
+background-color: rgb(223,153,48);
+ }
+
+ .call{
+    background-color:rgb( 219,92,37);
+    height: 55px;
+    width: 100px;
+    text-align: center;
+    color: white;
+    padding-top: 15px;
+
+    
+ }
 /* Footer part */
 .container{
     background-color: rgba(64, 33, 34, 1);
@@ -94,101 +188,9 @@
     border: border-box;
 
 }
-.navbar{
-    height: 185px;
-    background-color:white;
-    color:white;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    
-}
+
 /* End of footer */
 
-/* LOGO */
-.nav-logo{
-    height: 120px;
-    min-width:110px;
-    max-width: 130px;
-}
-.logo{
-    background-image: url("logo.jpeg");
-    background-size: cover;
-   height:100%;
-   width: 100%;
-}
-
-.border{
-border: 2px solid transparent;
-}
-.border:hover{
-    border: 1.5px solid black;
-}
-/* FOR TITLE HOMECRAFT HEAVEN */
-
-.nav-title{ 
-    color:rgb(59,22,22);
-    font-size: 35px;
-    font-family: 'Sedan SC';
-    font-weight:900px;
-    margin-top: 30px;
-    padding-left: 25px;
-    text-align: center;
-    height:fit-content;
- } 
-
- /* Search bar */
- .nav-search{
- 
-    display: flex;
-    width: 500px;
-    height: 45px;
-    border-radius: 4px;
-    justify-content: space-evenly;
- }
-
- .search-input{
-    
-    width:100%;
-    font-size: 1rem;
-    border:2px solid lightgrey;
-    color: rgb(119,119,119);
-
-
- }
- .search-icon{
-    width: 40px;
-    border:2px solid lightgrey;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 1.2rem;
-    border-top-left-radius:4px ;
-    border-bottom-left-radius:4px ;
- }
-
- .nav-consultation
- {
-    padding-left: 25px;
-    padding-top: 15px;
-text-align: center;
-width:250px;
-align-items: center;
-height: 55px;
-color: white;
-background-color: rgb(223,153,48);
- }
-
- .call{
-    background-color:rgb( 219,92,37);
-    height: 55px;
-    width: 100px;
-    text-align: center;
-    color: white;
-    padding-top: 15px;
-
-    
- }
 
 .logo1 ul li{
     list-style: none;
