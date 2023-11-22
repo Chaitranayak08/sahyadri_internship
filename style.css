@@ -1,8 +1,17 @@
 *{
     margin:0;
-<<<<<<< HEAD
     font-family: Roboto;
+    border: border-box;
+
 }
+.navbar{
+    width: 1440px;
+    height: 185px;
+    background-color: white;
+    color:white;
+    border: 10px solid blue;
+}
+
 .container{
     background-color: rgba(64, 33, 34, 1);
     padding: 100px 0;
@@ -87,16 +96,4 @@
 .news input button{
     color:  rgba(206, 175, 54,1);
     background-color:  rgba(206, 175, 54,1);;
-=======
-    font-family: 'Cinzel Decorative';
-    border: border-box;
-
-}
-.navbar{
-    width: 1440px;
-    height: 185px;
-    background-color: white;
-    color:white;
-    border: 10px solid blue;
->>>>>>> ead5bd3662291d28f4957f2e6f2ef253636b06e9
 }
