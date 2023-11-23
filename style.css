@@ -86,8 +86,8 @@ border: 2px solid transparent;
 
  .nav-consultation
  {
-    padding-left: 25px;
-    padding-top: 15px;
+    /* padding-left: 25px; */
+     padding-top: 15px; 
 text-align: center;
 width:250px;
 align-items: center;
@@ -98,14 +98,22 @@ background-color: rgb(223,153,48);
 
  .call{
     background-color:rgb( 219,92,37);
-    height: 55px;
+    height: 48px;
     width: 100px;
     text-align: center;
     color: white;
-    padding-top: 15px;
-
+    padding-top: 25px;
+    text-align: center;
     
  }
+
+   .call a{
+    color: white;
+       text-decoration: none;
+    }
+    .call a:hover{
+       color: black!important;
+    }
 
  /* NAVBAR 2 */
  .navbar2{
@@ -117,18 +125,12 @@ background-color: rgb(223,153,48);
     font-size: small;
     height: 45px;
  }
- /* .second{ */
-    /* justify-content: space-evenly; */
-
-    /* width:fit-content; */
-    /* height: 45px; */
-    /* color: white; */
- /* } */
-   a{
+ 
+   .navbar2 a{
  color: white;
     text-decoration: none;
  }
- a:hover{
+ .navbar2 a:hover{
     color: black!important;
  }
  .second:hover
@@ -138,7 +140,29 @@ background-color: rgb(223,153,48);
     color:black;
    
      }
-
+/* contact us page */
+.container1{
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+.contact-pic{
+    background-image: url("contact\ us.jpg");
+    width:100%;
+    height:600px;
+    background-size: cover;
+  
+}
+.con-text {
+    font-family: 'Cinzel Decorative';
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
 
 /* Footer part */
 .container{
@@ -166,6 +190,7 @@ background-color: rgb(223,153,48);
     font-size: 14px;
     line-height: 35px;
     color: white;
+    text-decoration: none;
 }
 .address ul li a:hover{
     color: rgba(206, 175, 54,1);
@@ -191,6 +216,7 @@ background-color: rgb(223,153,48);
     font-size: 14px;
     line-height: 35px;
     color: white;
+    text-decoration: none;
 }
 .services ul li a:hover{
     color: rgba(206, 175, 54,1);
@@ -209,12 +235,16 @@ background-color: rgb(223,153,48);
     padding: 0;
     list-style: none;
 }
-.company ul li a{
+.company ul li a
+{
     font-size: 14px;
     line-height: 35px;
     color: white;
+    text-decoration: none;
 }
-.company ul li a:hover{
+.company ul li a:hover
+
+{
     color: rgba(206, 175, 54,1);
 
 }
@@ -253,6 +283,8 @@ margin-right: 35px;
 .footerlogo img{
 display: block;
 margin: auto;
+height: 75px ;
+width:fit-content;
 }
 .footerlogo p{
     color:rgba(206, 175, 54,1);
@@ -394,3 +426,14 @@ margin-right: 90px;
         margin: auto;
     }
    
+/* body starts */
+.about1{
+     width: 1450px;
+    height: 470px;
+    flex-shrink: 0;
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+background-repeat: no-repeat;
+
+
+    
+}
