@@ -172,7 +172,7 @@
     left: 50%;
     transform: translate(-50%, -50%);
 }
-
+/* body of contact us page */
 .sub1 {
     background: #FFF;
     flex-shrink: 0;
@@ -187,7 +187,7 @@
 .one {
     /* margin: auto; */
     padding-top:80px;
-    padding-left:5px;
+    padding-left:50px;
     padding-bottom: 20px;
     text-align: left; 
     display: flex;
@@ -233,17 +233,52 @@
     /* 161% */
 }
 
-.conimage{
-    background-image: url("backcontact.png");
-    height:660px;
-    background-repeat: no-repeat;
-    filter: blur(2.5px);
-    width: 100%;
+.contact-back-image{
     position: relative;
+    display: block;
+    padding: 0px; 
+  }
+  
+  .conimage{
+    width: 100%;
     background-size: cover;
+    filter: blur(3px);
+    height: 660px;
+  }
+  
+  .secondimg{
+    position: absolute;
+   padding-top: 50px;
+   padding-bottom: 20px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: auto;
+    height: 600px;
+     /* border: 2px solid black;  */
+    
+  } 
+.form-text{
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration-line: underline;
+    position: absolute;
+    top: 30%;
+    left: 40%;
+    transform: translate(-50%, -50%);
 }
-
+.contact-form{
+    fill: rgba(251, 252, 253, 0.94);
+    border-width: 1px;
+    b: #000;
+}
 /* Footer part */
+
 .container {
     background-color: rgba(64, 33, 34, 1);
     padding: 52px;
