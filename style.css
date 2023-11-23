@@ -1,6 +1,6 @@
-*{
-    margin:0;
-   /* /font-family: 'Cinzel Decorative'; */
+* {
+    margin: 0;
+    /* /font-family: 'Cinzel Decorative'; */
     font-family: Roboto;
     border: border-box;
 
@@ -12,147 +12,156 @@
     color:white;
 }
 
-.navbar{
+
+.navbar {
     height: 185px;
-    background-color:white;
-    color:white;
+    background-color: white;
+    color: white;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    
+
 }
 
 /* LOGO */
-.nav-logo{
+.nav-logo {
     height: 120px;
-    min-width:110px;
+    min-width: 110px;
     max-width: 130px;
 }
-.logo{
+
+.logo {
     background-image: url("logo.jpeg");
     background-size: cover;
-   height:100%;
-   width: 100%;
+    height: 100%;
+    width: 100%;
 }
 
-.border{
-border: 2px solid transparent;
+.border {
+    border: 2px solid transparent;
 }
-.border:hover{
+
+.border:hover {
     border: 1.5px solid black;
 }
+
 /* FOR TITLE HOMECRAFT HEAVEN */
 
-.nav-title{ 
-    color:rgb(59,22,22);
+.nav-title {
+    color: rgb(59, 22, 22);
     font-size: 35px;
     font-family: 'Sedan SC';
-    font-weight:900px;
+    font-weight: 900px;
     margin-top: 30px;
     padding-left: 25px;
     text-align: center;
-    height:fit-content;
- } 
+    height: fit-content;
+}
 
- /* Search bar */
- .nav-search{
- 
+/* Search bar */
+.nav-search {
+
     display: flex;
     width: 500px;
     height: 45px;
     border-radius: 4px;
     justify-content: space-evenly;
- }
+}
 
- .search-input{
-    
-    width:100%;
+.search-input {
+
+    width: 100%;
     font-size: 1rem;
-    border:2px solid lightgrey;
-    color: rgb(119,119,119);
+    border: 2px solid lightgrey;
+    color: rgb(119, 119, 119);
 
 
- }
- .search-icon{
+}
+
+.search-icon {
     width: 40px;
-    border:2px solid lightgrey;
+    border: 2px solid lightgrey;
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 1.2rem;
-    border-top-left-radius:4px ;
-    border-bottom-left-radius:4px ;
- }
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
 
- .nav-consultation
- {
+.nav-consultation {
     /* padding-left: 25px; */
-     padding-top: 15px; 
-text-align: center;
-width:250px;
-align-items: center;
-height: 55px;
-color: white;
-background-color: rgb(223,153,48);
- }
+    padding-top: 15px;
+    text-align: center;
+    width: 250px;
+    align-items: center;
+    height: 55px;
+    color: white;
+    background-color: rgb(223, 153, 48);
+}
 
- .call{
-    background-color:rgb( 219,92,37);
+.call {
+    background-color: rgb(219, 92, 37);
     height: 48px;
     width: 100px;
     text-align: center;
     color: white;
     padding-top: 25px;
     text-align: center;
-    
- }
 
-   .call a{
+}
+
+.call a {
     color: white;
-       text-decoration: none;
-    }
-    .call a:hover{
-       color: black!important;
-    }
+    text-decoration: none;
+}
 
- /* NAVBAR 2 */
- .navbar2{
+.call a:hover {
+    color: black !important;
+}
+
+/* NAVBAR 2 */
+.navbar2 {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    background-color: rgb(	64,33,34);
-    color:white;
+    background-color: rgb(64, 33, 34);
+    color: white;
     font-size: small;
     height: 45px;
- }
- 
-   .navbar2 a{
- color: white;
+}
+
+.navbar2 a {
+    color: white;
     text-decoration: none;
- }
- .navbar2 a:hover{
-    color: black!important;
- }
- .second:hover
- {
+}
+
+.navbar2 a:hover {
+    color: black !important;
+}
+
+.second:hover {
     border: 2px solid black;
-    background-color:white;
-    color:black;
-   
-     }
+    background-color: white;
+    color: black;
+
+}
+
 /* contact us page */
-.container1{
+.container1 {
     position: relative;
     text-align: center;
     color: white;
-  }
-.contact-pic{
-    background-image: url("contact\ us.jpg");
-    width:100%;
-    height:600px;
-    background-size: cover;
-  
 }
+
+.contact-pic {
+    background-image: url("contact\ us.jpg");
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+
+}
+
 .con-text {
     font-family: 'Cinzel Decorative';
     color: white;
@@ -162,101 +171,186 @@ background-color: rgb(223,153,48);
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-  }
+}
 
+.sub1 {
+    background: #FFF;
+    flex-shrink: 0;
+    /* text-align: left; */
+  height: auto;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-bottom: 150px;
+    padding-top: 50px;
+}
+
+.one {
+    /* margin: auto; */
+    padding-top:80px;
+    padding-left:5px;
+    padding-bottom: 20px;
+    text-align: left; 
+    display: flex;
+    width:fit-content;
+    /* height: 43px; */
+    flex-direction: column;
+    /* justify-content: center; */
+    flex-shrink: 0;
+    color: #402122;
+    font-family: Cinzel;
+    font-size: 25px;
+    font-style: normal;
+    font-weight:bold;
+    /* line-height: 33.28px; */
+    /* 104% */
+}
+.chair img{
+    float: right;
+    height:300px;
+    width: 500px;
+    margin-right: 80px;
+    padding-top: 50px;
+    align-items: center;
+
+
+}
+.two {
+   text-align: left;
+   padding-left: 50px;
+   padding-top: 20px;
+    display: flex;
+    width: 581.233px;
+    /* height: 24px; */
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #5B4C4C;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32.2px;
+    /* 161% */
+}
+
+.conimage{
+    background-image: url("backcontact.png");
+    height:660px;
+    background-repeat: no-repeat;
+    filter: blur(2.5px);
+    width: 100%;
+    position: relative;
+    background-size: cover;
+}
 /* Footer part */
-.container{
+.container {
     background-color: rgba(64, 33, 34, 1);
     padding: 52px;
-    
-    
+
+
 }
-.address{
+
+.address {
     float: left;
     width: 25%;
     line-height: 25px;
-    padding-left:5%;
+    padding-left: 5%;
 }
-.address h4{
-    color: rgba(206, 175, 54,1) ;
+
+.address h4 {
+    color: rgba(206, 175, 54, 1);
     font-size: 16px;
 }
-.address ul{
+
+.address ul {
     margin: 0;
     padding: 0;
     list-style: none;
 }
-.address ul li a{
+
+.address ul li a {
     font-size: 14px;
     line-height: 35px;
     color: white;
     text-decoration: none;
 }
-.address ul li a:hover{
-    color: rgba(206, 175, 54,1);
+
+.address ul li a:hover {
+    color: rgba(206, 175, 54, 1);
 }
-.address ul li{
+
+.address ul li {
     color: white;
 }
-.services{
+
+.services {
     float: left;
     width: 25%;
     padding-left: 5%;
 }
-.services h4{
-    color: rgba(206, 175, 54,1) ;
+
+.services h4 {
+    color: rgba(206, 175, 54, 1);
     font-size: 16px;
 }
-.services ul{
+
+.services ul {
     margin: 0;
     padding: 0;
     list-style: none;
 }
-.services ul li a{
+
+.services ul li a {
     font-size: 14px;
     line-height: 35px;
     color: white;
     text-decoration: none;
 }
-.services ul li a:hover{
-    color: rgba(206, 175, 54,1);
+
+.services ul li a:hover {
+    color: rgba(206, 175, 54, 1);
 
 }
-.company{
+
+.company {
     float: left;
     width: 25%;
 }
-.company h4{
-    color: rgba(206, 175, 54,1) ;
+
+.company h4 {
+    color: rgba(206, 175, 54, 1);
     font-size: 16px;
 }
-.company ul{
+
+.company ul {
     margin: 0;
     padding: 0;
     list-style: none;
 }
-.company ul li a
-{
+
+.company ul li a {
     font-size: 14px;
     line-height: 35px;
     color: white;
     text-decoration: none;
 }
-.company ul li a:hover
 
-{
-    color: rgba(206, 175, 54,1);
+.company ul li a:hover {
+    color: rgba(206, 175, 54, 1);
 
 }
-.news p{
+
+.news p {
     color: white;
 }
-.news h4{
-    color:  rgba(206, 175, 54,1);
+
+.news h4 {
+    color: rgba(206, 175, 54, 1);
 }
-.news input button{
-    color:  rgba(206, 175, 54,1);
-    background-color:  rgba(206, 175, 54,1);
+
+.news input button {
+    color: rgba(206, 175, 54, 1);
+    background-color: rgba(206, 175, 54, 1);
     font-family: 'Cinzel Decorative';
     border: border-box;
 
@@ -265,35 +359,40 @@ background-color: rgb(223,153,48);
 /* End of footer */
 
 
-.logo1 ul li{
+.logo1 ul li {
     list-style: none;
 }
-.logo1 ul li a i{
-list-style: none;
-float:right;
-padding-right:25px;
-margin-right: 35px;
+
+.logo1 ul li a i {
+    list-style: none;
+    float: right;
+    padding-right: 25px;
+    margin-right: 35px;
 
 }
-.logo1 p{
-    color:rgba(206, 175, 54,1);
-    margin-right:25px;
+
+.logo1 p {
+    color: rgba(206, 175, 54, 1);
+    margin-right: 25px;
 }
+
 /* Footer image */
-.footerlogo img{
-display: block;
-margin: auto;
-height: 75px ;
-width:fit-content;
+.footerlogo img {
+    display: block;
+    margin: auto;
+    height: 75px;
+    width: fit-content;
 }
-.footerlogo p{
-    color:rgba(206, 175, 54,1);
+
+.footerlogo p {
+    color: rgba(206, 175, 54, 1);
     text-align: center;
     font-size: 18px;
-    font-style:Roboto;
-    font-weight:semi bold;
+    font-style: Roboto;
+    font-weight: semi bold;
     text-decoration: underline;
 }
+
 /* Footer image end */
 /* furniture body starts here */
 .furniture h4{
@@ -426,13 +525,18 @@ margin-right: 90px;
     }
    
 /* body starts */
+<<<<<<< HEAD
 .about1{
      width: 100%;
+=======
+.about1 {
+    width: 1450px;
+>>>>>>> cc9e4d3bd190f9bc9839cf7aab44ed80491f8455
     height: 470px;
     flex-shrink: 0;
-box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-background-repeat: no-repeat;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    background-repeat: no-repeat;
 
 
-    
+
 }
