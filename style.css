@@ -172,7 +172,7 @@
     left: 50%;
     transform: translate(-50%, -50%);
 }
-
+/* body of contact us page */
 .sub1 {
     background: #FFF;
     flex-shrink: 0;
@@ -187,7 +187,7 @@
 .one {
     /* margin: auto; */
     padding-top:80px;
-    padding-left:5px;
+    padding-left:50px;
     padding-bottom: 20px;
     text-align: left; 
     display: flex;
@@ -233,15 +233,29 @@
     /* 161% */
 }
 
-.conimage{
-    background-image: url("backcontact.png");
-    height:660px;
-    background-repeat: no-repeat;
-    filter: blur(2.5px);
-    width: 100%;
+.contact-back-image{
     position: relative;
+    display: block; 
+  }
+  
+  .conimage{
+    width: 100%;
     background-size: cover;
-}
+    filter: blur(3px);
+    height: 660px;
+  }
+  
+  .secondimg{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 600px;
+    height: 500px;
+     border: 2px solid black; 
+    
+  } 
+
 /* Footer part */
 .container {
     background-color: rgba(64, 33, 34, 1);
