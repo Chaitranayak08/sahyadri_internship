@@ -266,17 +266,36 @@
     line-height: normal;
     text-decoration-line: underline;
     position: absolute;
-    top: 30%;
+    top: 50%;
     left: 40%;
     transform: translate(-50%, -50%);
 }
 .contact-form{
-    fill: rgba(251, 252, 253, 0.94);
+    background-color:rgb(251,252,253) ;
     border-width: 1px;
-    b: #000;
+    border-color: #000;
+    width: 85%;
+    display: block;
+    padding-top: 20px;
 }
+.SUBMIT{
+    font-weight: bold;
+    font-size: large;
+    width:50%;
+    height:45px;
+}
+input{
+    font-size: auto;
+}
+textarea{
+    font-size: auto;
+}
+::placeholder{
+    font-family:roboto;
+    font-size: auto;
+    color:000000;
+  }
 /* Footer part */
-
 .container {
   background-color: rgba(64, 33, 34, 1);
   padding: 52px;
@@ -475,6 +494,7 @@
   font-style: normal;
   font-weight: 700px;
   line-height: 32.2px;
+}
 .diningpara h4{
     padding-top: 25px;
     flex-shrink: 0;
@@ -675,25 +695,20 @@ position: relative;
 margin-right: 987px;
 line-height: 32.2px;
 }
+.container{
+    width:100%;
+    padding: 0%;
+}
 .rev img{
     position: absolute;
       top: 50%;
       left: 50%;
       transform: translate(-50%, -50%); 
-      width: 100px; 
+      width: 100%; 
       height: 100px; 
       z-index: 1; 
+      padding-bottom:0%;
 }
-    
-/* 
-  color: #5b4c4c;
-  font-family: Inter;
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 32.2px;
-  float: right;
-} */
 .bedroompara h5 {
   padding-top: 25px;
   /* width: 779px;
