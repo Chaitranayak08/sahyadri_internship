@@ -1,532 +1,720 @@
 * {
-    margin: 0;
-    /* /font-family: 'Cinzel Decorative'; */
-    font-family: Roboto;
-    border: border-box;
-
+  margin: 0;
+  /* /font-family: 'Cinzel Decorative'; */
+  font-family: Roboto;
+  border: border-box;
 }
-.navbar{
-    width: 100%;
-    height: 185px;
-    background-color: white;
-    color:white;
+.navbar {
+  width: 100%;
+  height: 185px;
+  background-color: white;
+  color: white;
 }
-
 
 .navbar {
-    height: 185px;
-    background-color: white;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-
+  height: 185px;
+  background-color: white;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
 }
 
 /* LOGO */
 .nav-logo {
-    height: 120px;
-    min-width: 110px;
-    max-width: 130px;
+  height: 120px;
+  min-width: 110px;
+  max-width: 130px;
 }
 
 .logo {
-    background-image: url("logo.jpeg");
-    background-size: cover;
-    height: 100%;
-    width: 100%;
+  background-image: url("logo.jpeg");
+  background-size: cover;
+  height: 100%;
+  width: 100%;
 }
 
 .border {
-    border: 2px solid transparent;
+  border: 2px solid transparent;
 }
 
 .border:hover {
-    border: 1.5px solid black;
+  border: 1.5px solid black;
 }
 
 /* FOR TITLE HOMECRAFT HEAVEN */
 
 .nav-title {
-    color: rgb(59, 22, 22);
-    font-size: 35px;
-    font-family: 'Sedan SC';
-    font-weight: 900px;
-    margin-top: 30px;
-    padding-left: 25px;
-    text-align: center;
-    height: fit-content;
+  color: rgb(59, 22, 22);
+  font-size: 35px;
+  font-family: "Sedan SC";
+  font-weight: 900px;
+  margin-top: 30px;
+  padding-left: 25px;
+  text-align: center;
+  height: fit-content;
 }
 
 /* Search bar */
 .nav-search {
-
-    display: flex;
-    width: 500px;
-    height: 45px;
-    border-radius: 4px;
-    justify-content: space-evenly;
+  display: flex;
+  width: 500px;
+  height: 45px;
+  border-radius: 4px;
+  justify-content: space-evenly;
 }
 
 .search-input {
-
-    width: 100%;
-    font-size: 1rem;
-    border: 2px solid lightgrey;
-    color: rgb(119, 119, 119);
-
-
+  width: 100%;
+  font-size: 1rem;
+  border: 2px solid lightgrey;
+  color: rgb(119, 119, 119);
 }
 
 .search-icon {
-    width: 40px;
-    border: 2px solid lightgrey;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 1.2rem;
-    border-top-left-radius: 4px;
-    border-bottom-left-radius: 4px;
+  width: 40px;
+  border: 2px solid lightgrey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
 }
 
 .nav-consultation {
-    /* padding-left: 25px; */
-    padding-top: 15px;
-    text-align: center;
-    width: 250px;
-    align-items: center;
-    height: 55px;
-    color: white;
-    background-color: rgb(223, 153, 48);
+  /* padding-left: 25px; */
+  padding-top: 15px;
+  text-align: center;
+  width: 250px;
+  align-items: center;
+  height: 55px;
+  color: white;
+  background-color: rgb(223, 153, 48);
 }
 
 .call {
-    background-color: rgb(219, 92, 37);
-    height: 48px;
-    width: 100px;
-    text-align: center;
-    color: white;
-    padding-top: 25px;
-    text-align: center;
-
+  background-color: rgb(219, 92, 37);
+  height: 48px;
+  width: 100px;
+  text-align: center;
+  color: white;
+  padding-top: 25px;
+  text-align: center;
 }
 
 .call a {
-    color: white;
-    text-decoration: none;
+  color: white;
+  text-decoration: none;
 }
 
 .call a:hover {
-    color: black !important;
+  color: black !important;
 }
 
 /* NAVBAR 2 */
 .navbar2 {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    background-color: rgb(64, 33, 34);
-    color: white;
-    font-size: small;
-    height: 45px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: rgb(64, 33, 34);
+  color: white;
+  font-size: small;
+  height: 45px;
 }
 
 .navbar2 a {
-    color: white;
-    text-decoration: none;
+  color: white;
+  text-decoration: none;
 }
 
 .navbar2 a:hover {
-    color: black !important;
+  color: black !important;
 }
 
 .second:hover {
-    border: 2px solid black;
-    background-color: white;
-    color: black;
-
+  border: 2px solid black;
+  background-color: white;
+  color: black;
 }
 
 /* contact us page */
 .container1 {
-    position: relative;
-    text-align: center;
-    color: white;
+  position: relative;
+  text-align: center;
+  color: white;
 }
 
 .contact-pic {
-    background-image: url("contact\ us.jpg");
-    width: 100%;
-    height: 600px;
-    background-size: cover;
-
+  background-image: url("contact\ us.jpg");
+  width: 100%;
+  height: 600px;
+  background-size: cover;
 }
 
 .con-text {
-    font-family: 'Cinzel Decorative';
-    color: white;
-    font-size: 50px;
-    font-weight: bold;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+  font-family: "Cinzel Decorative";
+  color: white;
+  font-size: 50px;
+  font-weight: bold;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
-/* body of contact us page */
+
 .sub1 {
-    background: #FFF;
-    flex-shrink: 0;
-    /* text-align: left; */
+  background: #fff;
+  flex-shrink: 0;
+  /* text-align: left; */
   height: auto;
-    align-items: center;
-    justify-content: space-evenly;
-    padding-bottom: 150px;
-    padding-top: 50px;
+  align-items: center;
+  justify-content: space-evenly;
+  padding-bottom: 150px;
+  padding-top: 50px;
 }
 
 .one {
-    /* margin: auto; */
-    padding-top:80px;
-    padding-left:50px;
-    padding-bottom: 20px;
-    text-align: left; 
-    display: flex;
-    width:fit-content;
-    /* height: 43px; */
-    flex-direction: column;
-    /* justify-content: center; */
-    flex-shrink: 0;
-    color: #402122;
-    font-family: Cinzel;
-    font-size: 25px;
-    font-style: normal;
-    font-weight:bold;
-    /* line-height: 33.28px; */
-    /* 104% */
+  /* margin: auto; */
+  padding-top: 80px;
+  padding-left: 5px;
+  padding-bottom: 20px;
+  text-align: left;
+  display: flex;
+  width: fit-content;
+  /* height: 43px; */
+  flex-direction: column;
+  /* justify-content: center; */
+  flex-shrink: 0;
+  color: #402122;
+  font-family: Cinzel;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: bold;
+  /* line-height: 33.28px; */
+  /* 104% */
 }
-.chair img{
-    float: right;
-    height:300px;
-    width: 500px;
-    margin-right: 80px;
-    padding-top: 50px;
-    align-items: center;
-
-
+.chair img {
+  float: right;
+  height: 300px;
+  width: 500px;
+  margin-right: 80px;
+  padding-top: 50px;
+  align-items: center;
 }
 .two {
-   text-align: left;
-   padding-left: 50px;
-   padding-top: 20px;
-    display: flex;
-    width: 581.233px;
-    /* height: 24px; */
-    flex-direction: column;
-    justify-content: center;
-    flex-shrink: 0;
-    color: #5B4C4C;
-    font-family: Inter;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 32.2px;
-    /* 161% */
+  text-align: left;
+  padding-left: 50px;
+  padding-top: 20px;
+  display: flex;
+  width: 581.233px;
+  /* height: 24px; */
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
+  color: #5b4c4c;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32.2px;
+  /* 161% */
 }
 
-.contact-back-image{
-    position: relative;
-    display: block; 
-  }
-  
-  .conimage{
-    width: 100%;
-    background-size: cover;
-    filter: blur(3px);
-    height: 660px;
-  }
-  
-  .secondimg{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 600px;
-    height: 500px;
-     border: 2px solid black; 
-    
-  } 
-
+.conimage {
+  background-image: url("backcontact.png");
+  height: 660px;
+  background-repeat: no-repeat;
+  filter: blur(2.5px);
+  width: 100%;
+  position: relative;
+  background-size: cover;
+}
 
 /* Footer part */
 .container {
-    background-color: rgba(64, 33, 34, 1);
-    padding: 52px;
-
-
+  background-color: rgba(64, 33, 34, 1);
+  padding: 52px;
 }
 
 .address {
-    float: left;
-    width: 25%;
-    line-height: 25px;
-    padding-left: 5%;
+  float: left;
+  width: 25%;
+  line-height: 25px;
+  padding-left: 5%;
 }
 
 .address h4 {
-    color: rgba(206, 175, 54, 1);
-    font-size: 16px;
+  color: rgba(206, 175, 54, 1);
+  font-size: 16px;
 }
 
 .address ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
 
 .address ul li a {
-    font-size: 14px;
-    line-height: 35px;
-    color: white;
-    text-decoration: none;
+  font-size: 14px;
+  line-height: 35px;
+  color: white;
+  text-decoration: none;
 }
 
 .address ul li a:hover {
-    color: rgba(206, 175, 54, 1);
+  color: rgba(206, 175, 54, 1);
 }
 
 .address ul li {
-    color: white;
+  color: white;
 }
 
 .services {
-    float: left;
-    width: 25%;
-    padding-left: 5%;
+  float: left;
+  width: 25%;
+  padding-left: 5%;
 }
 
 .services h4 {
-    color: rgba(206, 175, 54, 1);
-    font-size: 16px;
+  color: rgba(206, 175, 54, 1);
+  font-size: 16px;
 }
 
 .services ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
 
 .services ul li a {
-    font-size: 14px;
-    line-height: 35px;
-    color: white;
-    text-decoration: none;
+  font-size: 14px;
+  line-height: 35px;
+  color: white;
+  text-decoration: none;
 }
 
 .services ul li a:hover {
-    color: rgba(206, 175, 54, 1);
-
+  color: rgba(206, 175, 54, 1);
 }
 
 .company {
-    float: left;
-    width: 25%;
+  float: left;
+  width: 25%;
 }
 
 .company h4 {
-    color: rgba(206, 175, 54, 1);
-    font-size: 16px;
+  color: rgba(206, 175, 54, 1);
+  font-size: 16px;
 }
 
 .company ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
 
 .company ul li a {
-    font-size: 14px;
-    line-height: 35px;
-    color: white;
-    text-decoration: none;
+  font-size: 14px;
+  line-height: 35px;
+  color: white;
+  text-decoration: none;
 }
 
 .company ul li a:hover {
-    color: rgba(206, 175, 54, 1);
-
+  color: rgba(206, 175, 54, 1);
 }
 
 .news p {
-    color: white;
+  color: white;
 }
 
 .news h4 {
-    color: rgba(206, 175, 54, 1);
+  color: rgba(206, 175, 54, 1);
 }
 
 .news input button {
-    color: rgba(206, 175, 54, 1);
-    background-color: rgba(206, 175, 54, 1);
-    font-family: 'Cinzel Decorative';
-    border: border-box;
-
+  color: rgba(206, 175, 54, 1);
+  background-color: rgba(206, 175, 54, 1);
+  font-family: "Cinzel Decorative";
+  border: border-box;
 }
 
 /* End of footer */
 
-
 .logo1 ul li {
-    list-style: none;
+  list-style: none;
 }
 
 .logo1 ul li a i {
-    list-style: none;
-    float: right;
-    padding-right: 25px;
-    margin-right: 35px;
-
+  list-style: none;
+  float: right;
+  padding-right: 25px;
+  margin-right: 35px;
 }
 
 .logo1 p {
-    color: rgba(206, 175, 54, 1);
-    margin-right: 25px;
+  color: rgba(206, 175, 54, 1);
+  margin-right: 25px;
 }
 
 /* Footer image */
 .footerlogo img {
-    display: block;
-    margin: auto;
-    height: 75px;
-    width: fit-content;
+  display: block;
+  margin: auto;
+  height: 75px;
+  width: fit-content;
 }
 
 .footerlogo p {
-    color: rgba(206, 175, 54, 1);
-    text-align: center;
-    font-size: 18px;
-    font-style: Roboto;
-    font-weight: semi bold;
-    text-decoration: underline;
+  color: rgba(206, 175, 54, 1);
+  text-align: center;
+  font-size: 18px;
+  font-style: Roboto;
+  font-weight: semi bold;
+  text-decoration: underline;
 }
 
 /* Footer image end */
-/* furniture body starts here by ethish */
-.furniture h4{
-display: flex;
-width: 1109px;
-height: 111px;
-flex-direction: column;
-justify-content: center;
-flex-shrink: 0;
-color: #051A42;
-text-align: center;
-font-family: Sedan SC;
-font-size: 45px;
-font-style: normal;
-font-weight: 400;
-line-height: 5px;
-padding-left: 85px;
-padding-right: 50px;
-margin: auto;
+/* furniture body starts here */
+.furniture h4 {
+  display: flex;
+  width: 1109px;
+  height: 111px;
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
+  color: #051a42;
+  text-align: center;
+  font-family: Sedan SC;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 5px;
+  padding-left: 85px;
+  padding-right: 50px;
+  margin: auto;
 }
-.dine{
-    margin: auto;
-    width: 70%;
-}
-.dine img{
-    max-width: 320px;
-    float: left;
-    border: 3px solid;
-}
-.dining{
-    color: white;
-}
-.dining h5{
-    font-size: 40px;
-}
-
-
 /* dining room paragraph placing */
 .diningpara {
-    width: 779px;
-height: 292px;
-flex-shrink: 0;
-color: #000;
-font-family: Inter;
-font-size: 25px;
-font-style: normal;
-font-weight: 400;
-line-height: 32.2px; 
-padding-top: 70px;
-margin-top: 50px;
+  width: 779px;
+  height: 292px;
+  flex-shrink: 0;
+  color: #000;
+  font-family: Inter;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32.2px;
+  padding-top: 70px;
+  margin-top: 50px;
 
-color: #5B4C4C;
-font-family: Inter;
-font-size: 20px;
-font-style: normal;
-font-weight: 400;
-line-height: 32.2px;
-float: right;
+  color: #5b4c4c;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32.2px;
+  float: right;
 }
-.diningpara h4{
-    padding-top: 25px;
-    /* width: 779px;
+.diningpara h4 {
+  padding-top: 25px;
+  /* width: 779px;
     height: 292px;  */
-    flex-shrink: 0;
-    color: #60053D;
-    font-family: Cinzel;
-    font-size: 28px;
-    font-style:normal;
-    font-weight:  700px;
-    line-height: 32.2px;
+  flex-shrink: 0;
+  color: #60053d;
+  font-family: Cinzel;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700px;
+  line-height: 32.2px;
 }
-.dining img{
-    width: 635px;
-height: 547px;
-flex-shrink: 0;
-border-radius: 89px;
-border: 1px solid #000;
-margin-left: 15px;
+.dining img {
+  width: 635px;
+  height: 547px;
+  flex-shrink: 0;
+  border-radius: 89px;
+  border: 1px solid #000;
+  margin-left: 15px;
 }
-.diningpara button{
-    display: flex;
-    width: 195px;
-    height: 75px;
-    padding: 44px 72px;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    flex-shrink: 0;
-    border-radius: 25px;
-background: #4F0734;
-color: #FFF;
-text-align: center;
-font-family: Inter;
-font-size: 15px;
-font-style: Roboto;
-font-weight: 600;
-line-height: 20px; /* 100% */
-letter-spacing: 0.1px;
-width: auto 91px;
-height: auto 20px;
-display: flex;
+.diningpara button {
+  display: flex;
+  width: 195px;
+  height: 75px;
+  padding: 44px 72px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+  border-radius: 25px;
+  background: #4f0734;
+  color: #fff;
+  text-align: center;
+  font-family: Inter;
+  font-size: 15px;
+  font-style: Roboto;
+  font-weight: 600;
+  line-height: 20px; /* 100% */
+  letter-spacing: 0.1px;
+  width: auto 91px;
+  height: auto 20px;
+  display: flex;
 }
 
+/* living room starts here */
+.livingpara {
+  width: 779px;
+  height: 292px;
+  flex-shrink: 0;
+  color: #000;
+  font-family: Inter;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32.2px;
+  padding-top: 70px;
+  margin-top: 50px;
 
-   
+  color: #5b4c4c;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32.2px;
+  float: left;
+}
+.livingpara h5 {
+  padding-top: 25px;
+  /* width: 779px;
+    height: 292px;  */
+  flex-shrink: 0;
+  color: #60053d;
+  font-family: Cinzel;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700px;
+  line-height: 32.2px;
+}
+.living img {
+  width: 635px;
+  height: 547px;
+  flex-shrink: 0;
+  border-radius: 89px;
+  border: 1px solid #000;
+  margin-left: 15px;
+}
+.livingpara button {
+  display: flex;
+  width: 195px;
+  height: 75px;
+  padding: 44px 72px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+  border-radius: 25px;
+  background: #4f0734;
+  color: #fff;
+  text-align: center;
+  font-family: Inter;
+  font-size: 15px;
+  font-style: Roboto;
+  font-weight: 600;
+  line-height: 20px; /* 100% */
+  letter-spacing: 0.1px;
+  width: auto 91px;
+  height: auto 20px;
+  display: flex;
+}
+/* bed starts here */
+.bedroompara {
+  width: 779px;
+  height: 292px;
+  flex-shrink: 0;
+  color: #000;
+  font-family: Inter;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32.2px;
+  padding-top: 70px;
+  margin-top: 50px;
+
+  color: #5b4c4c;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32.2px;
+  float: right;
+}
+.bedroompara h5 {
+  padding-top: 25px;
+  /* width: 779px;
+    height: 292px;  */
+  flex-shrink: 0;
+  color: #60053d;
+  font-family: Cinzel;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700px;
+  line-height: 32.2px;
+}
+.bedroompara img {
+  margin-left: 500px;
+  margin-top: 25px;
+  width: 635px;
+  height: 547px;
+  flex-shrink: 0;
+  border-radius: 89px;
+  border: 1px solid #000;
+  margin-left: 25px;
+}
+.bedroompara button {
+  display: flex;
+  width: 195px;
+  height: 75px;
+  padding: 44px 72px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+  border-radius: 25px;
+  background: #4f0734;
+  color: #fff;
+  text-align: center;
+  font-family: Inter;
+  font-size: 15px;
+  font-style: Roboto;
+  font-weight: 600;
+  line-height: 20px; /* 100% */
+  letter-spacing: 0.1px;
+  width: auto 91px;
+  height: auto 20px;
+  display: flex;
+}
+
+/* outdoor starts here */
+.outdoorpara {
+  width: 779px;
+  height: 292px;
+  flex-shrink: 0;
+  color: #000;
+  font-family: Inter;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32.2px;
+  padding-top: 70px;
+  margin-top: 50px;
+
+  color: #5b4c4c;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32.2px;
+  float: left;
+}
+.outdoorpara h5 {
+  padding-top: 25px;
+  /* width: 779px;
+    height: 292px;  */
+  flex-shrink: 0;
+  color: #60053d;
+  font-family: Cinzel;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700px;
+  line-height: 32.2px;
+}
+.outdoorpara img {
+  width: 635px;
+  height: 547px;
+  flex-shrink: 0;
+  border-radius: 89px;
+  border: 1px solid #000;
+  margin-left: 15px;
+}
+.outdoorpara button {
+  display: flex;
+  width: 195px;
+  height: 75px;
+  padding: 44px 72px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+  border-radius: 25px;
+  background: #4f0734;
+  color: #fff;
+  text-align: center;
+  font-family: Inter;
+  font-size: 15px;
+  font-style: Roboto;
+  font-weight: 600;
+  line-height: 20px; /* 100% */
+  letter-spacing: 0.1px;
+  width: auto 91px;
+  height: auto 20px;
+  display: flex;
+}
+
 /* body starts */
-
 .about1 {
-    width: 1450px;
-    height: 470px;
-    flex-shrink: 0;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-    background-repeat: no-repeat;   
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-    background-repeat: no-repeat;
+  width: 100%;
+  height: 470px;
+  flex-shrink: 0;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  background-repeat: no-repeat;
 }
-.about2{
-    padding-top: 25px;
+.about2 img {
+  width: 635px;
+  height: 547px;
+  flex-shrink: 0;
+  /* border-radius: 89px;
+    border: 1px solid #000; */
+  margin-left: 15px;
 }
-.about2 p{
-    
+.about2 p {
+  width: 779px;
+  height: 292px;
+  flex-shrink: 0;
+  color: #000;
+  font-family: Inter;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32.2px;
+  padding-top: 70px;
+  margin-top: 50px;
+  float: right;
+  justify-content: center;
+}
+.about2 h4 {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+@media screen and (max-width: 400px) {
+  .furniture h4 {
+    max-width: 100%;
+    height: auto;
+    display: flex;
+    width: 1109px;
+    height: 111px;
+    flex-direction: column;
+    justify-content: center;
+    /* flex-shrink: 0; */
+    color: #051a42;
+    text-align: center;
+    font-family: Sedan SC;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 5%;
+    padding-left: 85%;
+    padding-right: 50%;
+    margin: auto;
+  }
 }
