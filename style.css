@@ -295,6 +295,19 @@ textarea{
     font-size: auto;
     color:000000;
   }
+  .contact-address{
+    width: 100%;
+    background-color: rgba(206, 175, 54, 0.48);
+    height: 500px;
+  }
+  .contact-address-box{
+    padding-top: 8%;
+    align-items: center;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
 /* Footer part */
 
 .container {
