@@ -1140,7 +1140,25 @@ transform: translate(50%,-500%);
 margin-left: 10%;
 color: #FFF;
 }
-
+.hom-division4{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 2%;
+  
+}
+.hom-division4a{
+    padding-left: 3%;
+    padding-top: 2%;
+}
+.hom-division4a dd{
+    color:rgb(87,89,89);
+    font-family: Inter;
+    font-size: small;
+}
+.hom-division4a dt{
+    font-family: Inter;
+    font-size: large;
+}
 /* home page ends */
 
 
